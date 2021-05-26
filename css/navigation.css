@@ -1,0 +1,11 @@
+.navigation {
+    text-align: center;
+    margin: 20px auto;
+    padding-left: 0;
+    border-bottom: 1px solid #0000ffe7;
+}
+
+.navigation__item {
+    margin: 15px 0;
+    list-style-type: none;
+}

@@ -1,0 +1,15 @@
+
+.image {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid black;
+    box-shadow: 6px -6px 5px 0px rgba(0, 0, 0, 0.66);
+}
+
+.image--vertical {
+    max-width: 300px;
+}
+
+.image--hiddenPhoto {
+    display: none;
+}
