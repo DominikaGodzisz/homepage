@@ -3,9 +3,21 @@
     margin: 20px auto;
     padding-left: 0;
     border-bottom: 1px solid #0000ffe7;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation__list {
+    flex-basis: 650px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .navigation__item {
     margin: 15px 0;
     list-style-type: none;
+    flex-basis: 150px;
+    flex-shrink: 0;
 }

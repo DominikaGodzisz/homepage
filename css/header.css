@@ -2,9 +2,11 @@
     background-image: url("https://github.com/DominikaGodzisz/homepage/blob/main/images/akustyka.jpg?raw=true");
     background-color: #222;
     height: 650px;
+    overflow:auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: local;
     position: relative;
 }
 
@@ -13,4 +15,6 @@
     position: absolute;
     top: 70%;
     right: 15%;
+    
 }
+

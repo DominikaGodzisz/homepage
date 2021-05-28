@@ -1,8 +1,18 @@
 .footer {
-    background-color: #a09e9d;
-    
+    background-color: #a09e9d;   
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 .footer__contact {
+    max-width: 500px;
     font-size: 15px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 00px;
+    flex-shrink: 1;
 }
