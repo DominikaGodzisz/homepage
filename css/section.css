@@ -24,17 +24,23 @@
     color: #0000ff;
 }
 
+.section__flex{
+display: flex;
+flex-direction: column;
+}
+
 .section__aside {
     float: right;
-    margin-left: 5px;
-    margin-right: 10px;
+    /* margin-left: 5px; */
+    margin-right: 20px;
     box-shadow: 6px -6px 5px 0px rgba(0, 0, 0, 0.66);
 }
 
 .section__tableSpace {
+    max-width: 800px;
     overflow-x: auto;
     background-color: #eee;
-    margin-left: 10px;
+    margin: auto;
 }
 
 .section__button {
