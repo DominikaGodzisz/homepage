@@ -1,13 +1,24 @@
-let showOrHidePhotoButton = document.querySelector(".js-showOrHidePhotoButton");
-console.log(showOrHidePhotoButton);
-let hiddenPhoto = document.querySelector(".image--hiddenPhoto");
-let photoState = document.querySelector(".js-photoState");
+{
+    const welcome = () => {
+        console.log("Hello everyone");
+    }
 
-showOrHidePhotoButton.addEventListener("click", () => {
+    welcome();
 
-    hiddenPhoto.classList.toggle("image--hiddenPhoto");
+    const onShowOrHidePhotoClick = () => {
+        const hiddenPhoto = document.querySelector(".image--hiddenPhoto");
+        const photoState = document.querySelector(".js-photoState");
+        hiddenPhoto.classList.toggle("image--hiddenPhoto");
+        photoState.innerText = hiddenPhoto.classList.contains("image--hiddenPhoto") ? "Pokaż" : "Ukryj";
+    }
 
-    photoState.innerText = hiddenPhoto.classList.contains("image--hiddenPhoto") ? "Pokaż" : "Ukryj";
-    
-});
+    const init = () => {
+        const showOrHidePhotoButton = document.querySelector(".js-showOrHidePhotoButton");
+        showOrHidePhotoButton.addEventListener("click", onShowOrHidePhotoClick);
+    }
+
+    init()
+}
+
+
 
